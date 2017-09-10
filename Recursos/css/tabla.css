@@ -1,0 +1,26 @@
+table,td{
+	border:2px solid black;
+	padding:5px;
+	border-collapse: collapse;
+}
+tr:first-child{
+	font-weight: bold;
+	color: red;
+}
+td:first-child{
+	font-weight: bold;
+	color:red;
+}
+tr:nth-child(even){
+ background-color:pink;   
+}
+#container{
+	margin:10px auto;
+	width:300px;
+}
+tr:hover{
+  background-color:lightblue; 
+}
+td:hover{
+	background-color: yellow;
+}

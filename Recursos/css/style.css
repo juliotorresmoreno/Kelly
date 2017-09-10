@@ -1,0 +1,108 @@
+/* *{color:red;}    Ejm selector universal*/
+h1{color:peru;} 
+.banner img{
+	width: 600px;
+	height:500px;
+} 
+.centrar{
+  width: 600px;
+  margin: 0 auto;
+}
+header nav ul {
+  list-style:none; 
+
+}
+.menu{
+	float:right;
+}
+.menu li{
+	float:left;
+    margin-right: 10px;
+    border-style: solid;
+    font-size: 24px;
+    border-width: 1px;
+    padding:10px;
+    border-color: #eee;
+    border-radius: 8px;
+}
+.menu li a{
+  display:block;
+  color: black;
+  font-weight:bold; 
+  text-decoration:none; 
+  text-align: center;
+  padding:8px; 
+
+}
+.menu li a:hover{
+  background-color: #96B5F6;
+  border-radius: 8px;
+  height: 28px;
+
+}
+.encab{
+	float:left;
+
+}
+#logo{
+   box-shadow: 4px 8px  #000;
+}
+main{
+	width: 80%;
+	float:left;
+}
+.lado{
+	  float:left;
+    width:20%; 
+
+}
+.lado .title {
+    background-color: #EEE !important;
+    font-weight:bold;
+    text-align: center !important
+}
+
+.lado li {
+  list-style:none !important;
+  text-align: center !important;
+  margin-bottom: 30px;
+}
+.lado li a {
+  color: black;
+  text-decoration: none !important;
+}
+.lado ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+address {
+  font-style: normal
+}
+
+.pie{
+  clear:left;
+  background-color:#424d9f; 
+  height: 80px;
+  margin-left: 20px;
+  color:white;
+  margin-top: 200px !important
+}
+.pie .content {
+  padding: 20px 20px 20px 80px !important;
+}
+
+.pie .redes {
+    float: right;
+    width: 20%;
+    padding: 20px 20px 20px 80px !important;
+}
+.pie .redes img {
+  height: 20px
+}
+
+#error{
+  color:red;
+  /*font-weight: bold;*/
+}
+

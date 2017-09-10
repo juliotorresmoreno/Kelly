@@ -1,0 +1,15 @@
+table, th,td{
+ border: 1px solid blue;
+ border-spacing: 15px;
+ padding:10px;
+}
+th{
+	background-color:peru;
+}
+td{
+	text-align: center;	
+}
+td:hover{
+	text-align: center;
+	background-color: lightblue;
+}
